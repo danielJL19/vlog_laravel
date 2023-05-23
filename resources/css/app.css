@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width:768px){
+    figure{
+        width: 20rem;
+        height: 20rem;
+    }
+}
