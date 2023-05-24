@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @media (min-width:768px){
-    figure{
+    .figure{
         width: 20rem;
         height: 20rem;
+    }
+    .carta-descripcion{
+        width: 317px;
+        height: 183px;
     }
 }

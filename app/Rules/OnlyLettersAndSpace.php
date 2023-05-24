@@ -17,7 +17,7 @@ class OnlyLettersAndSpace implements ValidationRule
         $exp="/^[a-zA-Z\sñáéíóúÁÉÍÓÚ]+$/";
         //validacion
         if (!preg_match($exp,$value)) {
-            $fail('Esto no contiene letras');
+            $fail('Esto contiene números');
         }
     }
 }
